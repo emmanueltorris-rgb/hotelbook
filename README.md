@@ -1,8 +1,8 @@
-# 🏨 Hotel Booking App with M-Pesa Integration
+# Hotel Booking App with M-Pesa Integration
 
 A high-performance React application for browsing hotel rooms, filtering by preferences, and completing bookings through M-Pesa STK Push integration.
 
-## 📋 Table of Contents
+## Table of Contents
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Project Structure](#project-structure)
@@ -12,7 +12,7 @@ A high-performance React application for browsing hotel rooms, filtering by pref
 - [Environment Variables](#environment-variables)
 - [Screenshots](#screenshots)
 
-## ✨ Features
+## Features
 
 ### Guest Experience
 - **Landing Page**: Hero section with search bar for dates and location
@@ -48,7 +48,7 @@ A high-performance React application for browsing hotel rooms, filtering by pref
 - **json-server** for rapid REST API development
 - **LocalStorage** for client-side persistence
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 hotel-booking-app/
@@ -84,7 +84,7 @@ hotel-booking-app/
 └── index.html                  # HTML entry point
 ```
 
-## 🚀 Setup Instructions
+## Setup Instructions
 
 ### Prerequisites
 - Node.js (v16 or higher)
@@ -133,7 +133,7 @@ npm run dev
 ### Step 7: Open in Browser
 Navigate to `http://localhost:3000`
 
-## 💳 M-Pesa Integration
+## M-Pesa Integration
 
 ### Sandbox Setup (For Testing)
 
@@ -177,7 +177,7 @@ The app includes a **Simulation Mode** toggle in the payment modal. When enabled
 - Auto-completes payment after 5-10 seconds
 - Perfect for development and presentations
 
-## 🔌 API Endpoints
+## API Endpoints
 
 ### M-Pesa Gateway (Port 5000)
 | Method | Endpoint | Description |
@@ -197,7 +197,7 @@ The app includes a **Simulation Mode** toggle in the payment modal. When enabled
 | POST | `/bookings` | Create new booking |
 | GET | `/bookings` | List all bookings |
 
-## 🔧 Environment Variables
+## Environment Variables
 
 ### Frontend (.env)
 ```env
@@ -225,7 +225,7 @@ BASE_URL=https://sandbox.safaricom.co.ke
 CALLBACK_URL=https://your-ngrok-url.ngrok-free.app/api/mpesa/callback
 ```
 
-## 📱 Key Features Implemented
+## Key Features Implemented
 
 ### React Router
 - `/` - Home page with room directory
@@ -254,7 +254,7 @@ CALLBACK_URL=https://your-ngrok-url.ngrok-free.app/api/mpesa/callback
 - Real-time status polling
 - Success/failure handling with receipts
 
-## 🎨 UI/UX Highlights
+## UI/UX Highlights
 
 - **Responsive Design**: Works on mobile, tablet, and desktop
 - **Loading States**: Skeleton loaders and spinners
@@ -263,7 +263,7 @@ CALLBACK_URL=https://your-ngrok-url.ngrok-free.app/api/mpesa/callback
 - **Toast Notifications**: Success/error feedback
 - **Glass Morphism**: Modern backdrop blur effects
 
-## 🧪 Testing the Payment Flow
+## Testing the Payment Flow
 
 1. Add a room to cart from the home page
 2. Go to checkout (`/checkout`)
@@ -276,18 +276,18 @@ CALLBACK_URL=https://your-ngrok-url.ngrok-free.app/api/mpesa/callback
 6. After 5-10 seconds, payment will auto-complete
 7. View your confirmed booking in `/bookings`
 
-## 📝 Notes for Module 3 Submission
+## Notes for Module 3 Submission
 
 This project demonstrates mastery in:
-- ✅ **React Router**: Multi-page navigation with dynamic routes
-- ✅ **State Management**: Context API with useState/useEffect
-- ✅ **Controlled Forms**: Validated booking and payment forms
-- ✅ **External API**: json-server for data, Express for M-Pesa
-- ✅ **M-Pesa Integration**: Full STK Push flow with Daraja API
-- ✅ **Professional UI**: Tailwind CSS with responsive design
-- ✅ **Error Handling**: Graceful fallbacks and user feedback
+- **React Router**: Multi-page navigation with dynamic routes
+- **State Management**: Context API with useState/useEffect
+- **Controlled Forms**: Validated booking and payment forms
+- **External API**: json-server for data, Express for M-Pesa
+- **M-Pesa Integration**: Full STK Push flow with Daraja API
+- **Professional UI**: Tailwind CSS with responsive design
+- **Error Handling**: Graceful fallbacks and user feedback
 
-## 📄 License
+## License
 
 MIT License - Feel free to use for educational purposes.
 
